@@ -1,0 +1,31 @@
+---
+output: pdf_document
+---
+
+\pagenumbering{gobble}
+\newcommand{\linia}{\rule{\linewidth}{0.5pt}}
+\sffamily
+\begin{center}
+\begin{huge}
+[Title]
+\linia\\
+\end{huge}
+\begin{large}
+[Subject name] \hfill [Date]
+\end{large}
+\end{center}
+
+# Heading 1
+
+## Heading 2
+
+### Heading 3
+
+Normal text
+
+- unordered list
+- another item
+
+1. Ordered list
+2. item no. 2
+3. etc.
